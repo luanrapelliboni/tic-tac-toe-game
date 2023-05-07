@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Square Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form>
+        <input type="hidden" id="current" value="X">
+    </form>
+    <div id="scoreboard">
+        X é o vencedor!
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="square pointer" data-index="0">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="1">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="2">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="square pointer" data-index="3">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="4">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="5">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="square pointer" data-index="6">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="7">
+                <span></span>
+            </div>
+            <div class="square pointer" data-index="8">
+                <span></span>
+            </div>
+        </div>
+        <div id="button-container">
+            <button>Novo Jogo</button>
+        </div>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
